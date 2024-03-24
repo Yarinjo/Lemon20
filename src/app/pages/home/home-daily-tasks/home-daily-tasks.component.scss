@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #595085;
+}
+.dailyTasksBlocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.dailyTasksBlock {
+    padding: 12px 12px 8px 12px;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f6f5fb;
+    border-radius: 15px;
+}
+.dailyTasksBlock span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ff3726;
+    margin-bottom: 18px;
+    
+}
+.dailyTasksBlockCounter {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #403572;
+
+}
+.counter1{
+    color: #403572;
+}
+.counter2{
+    color: #ff5648;
+}
+.counter3{
+    color: #479696;
+}
+.block1 span {
+    color: #61598b;
+}
+.block2 span {
+    color: #ff3726;
+}
+.block3 span {
+    color: #479696;
+}
+
+
+.progress{
+    font-weight: 300;
+    color: #c93f8d;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #595085;
+  }
+.border {
+    display: flex;
+    width: 60%;
+    border-bottom: 5px solid #c93f8d;;
+    margin-top: 12px;
+    margin-bottom: 42px;
+}
+.progress span {
+    font-weight: 400;
+    color: #c93f8d;
+}
+
+.casual {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;;
+}
+.casualBlock1{
+    background: #f6f5fb;
+}
+
+.casualBlock2{
+    background: #fff4f4;
+}
+.casualBlock {
+    padding: 25px 39px 23px 54px;
+    border-radius: 15px;
+    position: relative;
+}
+.casualBlockTitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #403572;
+    margin-bottom: 10px;
+}
+
+.casualBlockDesc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #403572;
+    opacity: 0.7;
+}
+.casualBlockTitle1 {
+    position: relative;
+    
+
+}
+.calendar {
+position: absolute;
+top: -3px;
+left: -30px;
+}
+.casualBlockTitle2 {
+    position: relative;
+    color: #ff5648;
+
+}
+
+.clock {
+    position: absolute;
+    top: -3px;
+    left: -30px;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+}
+.casualBlockDesc2 {
+    color: #ff5648;;
+}

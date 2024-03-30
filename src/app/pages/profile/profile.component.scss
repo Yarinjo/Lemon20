@@ -33,6 +33,12 @@ h2 {
     color: #595085;
 }
 
+.strongSide {
+    font-weight: 500;
+    font-size: 14px;
+    color: #595085;
+}
+
 .strongSides {
     display: flex;
     gap: 8px;
@@ -48,6 +54,11 @@ h2 {
     display: flex;
 }
 
+.weakSide {
+    font-weight: 500;
+    font-size: 14px;
+    color: #595085;
+}
 .weakSides {
     display: flex;
     gap: 8px;
@@ -61,6 +72,12 @@ h2 {
     background: #fff4f4;
     display: flex;
     padding: 8px 10px;
+}
+
+.myReports {
+    font-weight: 300;
+    font-size: 24px;
+    color: #595085;
 }
 .reports {
     display: grid;
